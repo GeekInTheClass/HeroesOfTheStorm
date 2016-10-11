@@ -8,6 +8,8 @@ print("Q1. 숫자에 2를 곱한 값 출력")
 for number in numbers{
     print(2*number)
 }
+
+//solution
 let numbers1 = numbers.map({ $0 * 2 })
 print (numbers1)
 
@@ -20,6 +22,8 @@ for number in numbers{
         print(number)
     }
 }
+
+//solution
 let numbers2 = numbers.filter({ $0 % 2 == 0 })
 print (numbers2)
 
@@ -35,6 +39,8 @@ for number in numbers{
     }
 }
 print(max_num)
+
+//solution
 let numbers3 = numbers.sort( > )
 print (numbers3.first!)
 
@@ -47,6 +53,8 @@ var nameDic:Dictionary = ["Leonard":"Sheldon", "Penny":"Raju"]
 for (key, value) in nameDic {
     print("\(key) : \(value)")
 }
+
+//solution
 var nameDic:Dictionary = ["Leonard":"Sheldon", "Penny":"Raju"]
 nameDic.map({print($0.0 + ":" + $0.1)})
 
@@ -57,5 +65,7 @@ print("\nQ5. 이름 앞에 번호 달아서 출력")
 for (index, value) in names.enumerated() {
     print("\(index + 1): \(value)")
 }
+
+//solution
 var index = 0
 nameDic.map({index += 1;print(index, ": "+$0.1)})
