@@ -12,16 +12,16 @@ for number in numbers{
 print("\nQ2. 짝수만 출력")
 for number in numbers{
         if(number%2 == 0){
-                    print(number)
-                        }
+                print(number)
+        }
 }
 
 print("\nQ3. 가장 큰 수 출력")
 var max_num:Int = 0;
 for number in numbers{
         if(max_num < number){
-                    max_num = number
-                        }
+                max_num = number
+        }
 }
 print(max_num)
 
